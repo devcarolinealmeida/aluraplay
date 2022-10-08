@@ -70,3 +70,13 @@
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+@media screen and (min-width:834px) {
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
+}
