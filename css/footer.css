@@ -1,15 +1,34 @@
 
 .rodape__container {
     width: 100%;
-    height: 875px;
+    height: 51em;
     color: var(--cinza-texto);
     line-height: 1.5;
     font-size: 16px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 
 .rodape__titulo {
     color: var(--azul-medio);
     font-weight: bold;
-    padding: 10px 0 20px 0;
+    padding-bottom: .5em;
+}
+
+
+@media screen and (min-width: 768px) {
+    .rodape__container {
+        height: 27em;
+        padding: .8em 2em;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 1440px) {
+    .rodape__container {
+        height: 13em;
+    }
 }
