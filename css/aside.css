@@ -2,6 +2,32 @@
 .menu__container {
     background-color: var(--azul-escuro);
     font-size: 14px;
+    position: fixed;
+    bottom: 0%;
+    height: 6em;
+    width: 100%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
 }
 
 .menu__itens:hover {
