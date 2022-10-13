@@ -118,7 +118,7 @@
         height: auto;
         width: 7em;
         left: 0;
-        top: 7em;
+        top: 5em;
         
     }
 
@@ -134,8 +134,24 @@
     }
 }
 
-@media(min-width: 1440px) {
+@media screen and (min-width: 1024px) {
+    .menu__container {
+        width: 15em;
+        overflow: auto;
+    }
+
     .menu__lista {
         border-bottom: 1.5px solid var(--azul-medio);
+        height: auto;
+        padding: 1.2em 1em;
+    }
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+    .menu__itens {
+        flex-direction: row;
+        align-items: center;
     }
 }
