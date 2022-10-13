@@ -1,0 +1,107 @@
+
+.menu__container {
+    background-color: var(--azul-escuro);
+    font-size: 14px;
+}
+
+.menu__itens:hover {
+    background-color: var(--azul-medio);
+    transition: .5s;
+}
+
+.icone__inicio::before {
+    content: url(../img/menu/home.png);
+}
+
+.icone__explorar::before {
+    content: url(../img/menu/explore.png);
+}
+
+.icone__shorts::before {
+    content: url(../img/menu/shorts.png);
+}
+
+.icone__inscricoes::before {
+    content: url(../img/menu/subscriptions.png);
+}
+
+.icone__biblioteca::before {
+    content: url(../img/menu/video_library.png);
+}
+
+.icone__historico::before {
+    content: url(../img/menu/history.png);
+}
+
+.icone__relogio::before {
+    content: url(../img/menu/history_toggle_off.png);
+}
+
+.icone__like::before {
+    content: url(../img/menu/thumb_up_alt.png);
+}
+
+.icone__alura::before {
+    content: url(../img/menu/Avatar_Alura.png);
+}
+
+.icone__gaveta::before {
+    content: url(../img/menu/Avatar_Gaveta.png);
+}
+
+.icone__ballerini::before {
+    content: url(../img/menu/Avatar_Rafa.png);
+}
+
+.icone__iamarino::before {
+    content: url(../img/menu/Avatar_Atila.png);
+}
+
+.icone__souto::before {
+    content: url(../img/menu/Avatar_Souto.png);
+}
+
+.icone__nerd::before {
+    content: url(../img/menu/Avatar_Jovem_Nerd.png);
+}
+
+.icone__deschamps::before {
+    content: url(../img/menu/Avatar_Deschamps.png);
+}
+
+.icone__mostrar::before {
+    content: url(../img/menu/keyboard_arrow_down.png);
+}
+
+.icone__videos::before {
+    content: url(../img/menu/videos.png);
+}
+
+.icone__filmes::before {
+    content: url(../img/menu/filmes.png);
+}
+
+.icone__jogos::before {
+    content: url(../img/menu/jogos.png);
+}
+
+
+@media(min-width: 834px) {
+    .menu__container {
+        font-size: 16px;
+    }
+
+    .menu__lista {
+        padding-top: 15px;
+    }
+
+    .menu__lista li {
+        width: 100%;
+    }
+}
+
+@media(min-width: 1440px) {
+    .menu__lista {
+        border-bottom: 1.5px solid var(--azul-medio);
+    }
+}
