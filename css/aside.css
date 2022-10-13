@@ -156,4 +156,19 @@
         align-items: center;
         gap: 1.2em;
     }
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+    .jogos {
+        order: 3;
+    }
+    .filmes {
+        order: 2;
+    }
+    .premiun {
+        order: 1;
+    }
+    .maispagina {
+        order: 4;
+    }
 }
