@@ -112,13 +112,21 @@
 }
 
 
-@media(min-width: 834px) {
-    .menu__container {
+@media screen and (min-width:768px) {
+        .menu__container {
         font-size: 16px;
+        height: auto;
+        width: 7em;
+        left: 0;
+        top: 7em;
+        
     }
 
     .menu__lista {
-        padding-top: 15px;
+        padding-top: 1em;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2.5em;
     }
 
     .menu__lista li {
