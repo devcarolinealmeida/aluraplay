@@ -13,7 +13,6 @@
     white-space: nowrap;
     overflow: scroll;
     gap: .5em;
-    margin-left: 2em;
 }
 
 .superior__item {
@@ -36,12 +35,12 @@
         border-top: var(--azul-medio) 1px solid;
         border-bottom: var(--azul-medio) 1px solid;
         width: auto;
-        left: 82px;
+        left: 7em;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .superior__secao__container {
-        margin-left: 10em;
+        left: 15em;
     }
 }
