@@ -1,9 +1,9 @@
 .videos__container {
     color: black;
-    padding: 153px 20px 10px 20px;
+    padding: 10em 1.5em 2em 1.5em;
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 1em;
+    grid-template-columns: 100%;
+    gap: 2em;
 }
 
 /* .videos__item:hover {
@@ -45,6 +45,11 @@
         padding-right: 2em;
         grid-template-columns: 33% 33% 33%;
     }
+
+    .descricao-video {
+       
+    }
+
 
     /* .videos__item:hover {
         transform: scale(1.3);
